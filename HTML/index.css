@@ -1,0 +1,59 @@
+body {
+  background-color: #f0f0f0;
+}
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+#display {
+  width: 75%;
+  height: 60px;
+  font-size: 24px;
+  text-align: right;
+}
+
+.input-container {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  border: none;
+}
+
+.ac-button,
+.button {
+  width: 25%;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  background-color: #2e8b57;
+  border: none;
+}
+
+.button {
+  background-color: black;
+}
+
+.row {
+  display: flex;
+}
+
+.operator {
+  width: 25%;
+  height: 60px;
+  font-size: 24px;
+  background-color: #808080;
+  color: white;
+  border: none;
+}
+
+.equals-button {
+  width: 25%;
+  height: 60px;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  border: none;
+}
